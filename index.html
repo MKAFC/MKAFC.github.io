@@ -1,0 +1,42 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw(){
+  background(255);
+  fill(13,90,255)
+rect(90,80,220,220)
+fill(189, 0, 0)
+rect(90,80,110,220)
+  noFill();
+  stroke(0);
+  strokeWeight(1);
+  
+fill(50,157,255)
+
+beginShape();
+vertex(200,301);
+vertex(200,190);
+vertex(229,193);
+vertex(279,180);
+vertex(311,191);
+vertex(310,301);
+vertex(200,301);
+fill(255,65,0)
+endShape();
+fill(13, 90, 225)
+  
+beginShape();
+vertex(147,80);
+vertex(200,80);
+vertex(200,300);
+vertex(145,300);
+vertex(118,217);
+vertex(168,169);
+vertex(147,80);
+fill(69, 159, 79)
+endShape();
+}
+ function mousePressed(){
+ console.log(mouseX, mouseY)
+}
